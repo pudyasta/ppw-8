@@ -1,9 +1,13 @@
+:root {
+  --azul: #181733;
+  --white: #ffffff;
+}
 body {
-  background-color: #181733;
+  background-color: var(--azul);
 }
 
 .navbar {
-  background-color: #181733 !important;
+  background-color: var(--azul) !important;
 }
 footer {
   background-color: #121121;
@@ -26,4 +30,43 @@ footer {
 .time-until {
   background-repeat: no-repeat;
   background-image: url("https://www.fcbarcelona.com/resources/v2.69.1-5358/i/bg-elements/stripes-horizontal.png");
+}
+
+.jumbotron-head {
+  font-size: 18px !important;
+  position: relative !important;
+  z-index: 10;
+}
+.jumbotron-text {
+  font-size: 12px !important;
+  position: relative !important;
+  z-index: 10;
+}
+.jumbotron {
+  position: relative;
+  position: relative !important;
+  z-index: 2;
+}
+.jumbotron::after {
+  content: "";
+  opacity: 0.2\3;
+  position: absolute;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background: radial-gradient(#ffffff00 10%, #cd122e00 15%, #1817339b) 50%;
+}
+
+@media only screen and (min-width: 778px) {
+  .jumbotron-head {
+    font-size: 40px !important;
+  }
+  .jumbotron-text {
+    font-size: 18px;
+  }
 }
