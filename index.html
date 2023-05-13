@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Barcelona Oficials Website</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary bg-dark"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid px-5 gap-5">
+        <a class="navbar-brand d-flex align-items-center gap-3" href="#"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/id/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png"
+            width="40"
+            srcset=""
+          />
+          <h5>FC Barcelona</h5></a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >FIRST TEAM</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CLUB</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                BARCA ALL TEAMS
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">First Team</a></li>
+                <li><a class="dropdown-item" href="#">Women's Team</a></li>
+                <li><a class="dropdown-item" href="#">Barca Junior</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-danger" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="sticky-top py-3 d-none d-lg-block px-5 w-100 row gap-5 text-decoration-none"
+      style="
+        background-image: linear-gradient(90deg, #cd122d 0, #154284);
+        bottom: -40px;
+        z-index: 20;
+        left: 0;
+      "
+    >
+      <a
+        href="http://"
+        class="link-light text-decoration-none border-bottom border-3 border-warning py-3"
+        >Latest</a
+      >
+      <a href="http://" class="link-light text-decoration-none">Schedule</a>
+      <a href="http://" class="link-light text-decoration-none">Tickets</a>
+      <a href="http://" class="link-light text-decoration-none">Results</a>
+      <a href="http://" class="link-light text-decoration-none">Stadings</a>
+      <a href="http://" class="link-light text-decoration-none">Player</a>
+      <a href="http://" class="link-light text-decoration-none">Photos</a>
+      <a href="http://" class="link-light text-decoration-none">Honours</a>
+      <a href="http://" class="link-light text-decoration-none">Features</a>
+    </div>
+
+    <div
+      id="carouselExampleAutoplaying"
+      style="max-height: 70vh"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner" style="max-height: 70vh">
+        <div class="carousel-item active img" style="max-height: 70vh">
+          <img
+            class="d-block img-fluid w-100"
+            src="https://images2.minutemediacdn.com/image/upload/c_crop,w_4781,h_2689,x_0,y_401/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/GettyImages/mmsport/90min_en_international_web/01gzeyxyn89wjfpny052.jpg"
+            alt="First slide"
+          />
+          <div class="carousel-caption d-md-block">
+            <h1>Jordi Alba, a defender with a striker's soul</h1>
+            <h6>
+              The blaugrana is the defender who has been involved in most goals
+              this season in all competitions
+            </h6>
+          </div>
+        </div>
+        <div class="carousel-item" style="max-height: 70vh">
+          <img
+            class="d-block img-fluid w-100 h-100"
+            src="https://s2.dmcdn.net/v/UpNu31aAE5UP4MfuH/x1080"
+            alt="First slide"
+          />
+          <div class="carousel-caption d-md-block">
+            <h1>25th clean sheet equals Chelsea's 2004/05 record</h1>
+            <h6>
+              Another shutout against Osasuna continues this history-making
+              season for Ter Stegen and his defence
+            </h6>
+          </div>
+        </div>
+        <div class="carousel-item" style="max-height: 70vh">
+          <img
+            class="d-block w-100 h-100"
+            src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/bltcea62555fbff088a/63cfd0daceb83868d3cf3d5e/Pedri_Gavi_Barcelona_2022-23.jpg"
+            alt="First slide"
+          />
+          <div class="carousel-caption d-md-block">
+            <h1>Leading the way in young talent</h1>
+            <h6>
+              FC Barcelona has more young players than any of the leaders in
+              Europe's top five leagues
+            </h6>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="about container py-5 position-relative">
+      <h1 class="text-center text-light text-uppercase mb-3 heading">
+        Culers Corner
+      </h1>
+      <div class="row">
+        <div class="col-md-4">
+          <h4 class="text-light my-3">Trophies</h4>
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Champions League
+              <span class="badge bg-warning rounded-pill">5</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Fifa Club World Cup
+              <span class="badge bg-warning rounded-pill">3</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              European Cup Winners' Cup
+              <span class="badge bg-warning rounded-pill">4</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Fairs Cup
+              <span class="badge bg-warning rounded-pill">3</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              European Super Cup
+              <span class="badge bg-warning rounded-pill">5</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Latin Cup
+              <span class="badge bg-warning rounded-pill">2</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Pyrenees Cup
+              <span class="badge bg-warning rounded-pill">4</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Spanish League Championship
+              <span class="badge bg-warning rounded-pill">26</span>
+            </li>
+
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Copa del Rey
+              <span class="badge bg-warning rounded-pill">31</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Spanish Super Cup
+              <span class="badge bg-warning rounded-pill">14</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Spanish League Cup
+              <span class="badge bg-warning rounded-pill">2</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Mediterranean League
+              <span class="badge bg-warning rounded-pill">1</span>
+            </li>
+
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Catalan League
+              <span class="badge bg-warning rounded-pill">1</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Catalan League Championship
+              <span class="badge bg-warning rounded-pill">23</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Catalan Super Cup
+              <span class="badge bg-warning rounded-pill">2</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Catalan Cup
+              <span class="badge bg-warning rounded-pill">8</span>
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              Eva Duarte Cup
+              <span class="badge bg-warning rounded-pill">3</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8">
+          <h4 class="text-light my-3">News</h4>
+          <div class="news d-flex flex-column gap-3">
+            <div class="card w-100 border-0">
+              <div class="row">
+                <div class="col">
+                  <img
+                    src="https://www.fcbarcelona.com/photo-resources/2023/05/09/969281cf-a7b4-4160-a7cb-7abd737e5ad8/mini_2022-05-09_RENOVACIOINAKIPENA_10.JPG?width=640&height=400"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body mt-2">
+                    <h5 class="card-title">
+                      Iñaki Peña extends contract to 2026
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Facilis, minus sequi dicta reiciendis harum quo!
+                    </p>
+                    <button class="btn btn-outline-danger">Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card w-100 border-0">
+              <div class="row">
+                <div class="col">
+                  <img
+                    src="https://www.fcbarcelona.com/photo-resources/2023/05/08/0abaa58b-e4db-4319-8e60-228393d3ad2f/3200x2000_notext.png?width=640&height=400"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body mt-2">
+                    <h5 class="card-title">
+                      Friendly in Tokyo against Vissel Kobe
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Facilis, minus sequi dicta reiciendis harum quo!
+                    </p>
+                    <button class="btn btn-outline-danger">Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card w-100 border-0">
+              <div class="row">
+                <div class="col">
+                  <img
+                    src="https://www.fcbarcelona.com/photo-resources/2023/05/08/925e08d7-1de3-4ad6-bddb-514dc0266df0/fcb-boca-38-.jpg?width=640&height=400"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body mt-2">
+                    <h5 class="card-title">
+                      15 years since Pep Guardiola announced as Barça coach
+                    </h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Facilis, minus sequi dicta reiciendis harum quo!
+                    </p>
+                    <button class="btn btn-outline-danger">Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card w-100 border-0">
+              <div class="row">
+                <div class="col">
+                  <img
+                    src="https://www.fcbarcelona.com/photo-resources/2023/05/05/8c6adf72-eaea-408c-ba62-55e4e17efa9e/balde-pedri.jpg?width=640&height=400"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-7">
+                  <div class="card-body mt-2">
+                    <h5 class="card-title">Leading the way in young talent</h5>
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Facilis, minus sequi dicta reiciendis harum quo!
+                    </p>
+                    <button class="btn btn-outline-danger">Read more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-danger">View More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="next-match-session text-light py-5 position-relative">
+      <div
+        class="yellow position-absolute bg-warning top-0 z-3"
+        style="width: 15px; height: 200px"
+      ></div>
+      <div
+        class="red position-absolute bg-danger bottom-0 z-3"
+        style="width: 15px; height: 200px; right: 0"
+      ></div>
+      <div class="container">
+        <div class="text-center z-3 position-relative">
+          <h1 class="text-center text-uppercase mb-3 heading">Next Macth</h1>
+          <img src="logo.png" alt="" width="150" class="py-3" />
+          <p class="fw-bold pt-3">Matchday 35 - Spotify Camp Nou</p>
+          <h3 class="fw-bold pb-3 text-warning">Sunday 23 March</h3>
+        </div>
+        <div class="content row z-3 position-relative">
+          <div
+            class="col-md-5 d-flex justify-content-end align-items-center gap-4"
+          >
+            <h2>FC BARCELONA</h2>
+            <img
+              height="100"
+              src="https://upload.wikimedia.org/wikipedia/id/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="col-md-2 text-center d-flex align-items-center justify-content-center flex-column"
+          >
+            <h5>Kick Off</h5>
+            <h2 class="fw-bold">18.00 WIB</h2>
+          </div>
+          <div class="col-md-5 d-flex align-items-center gap-4">
+            <img
+              height="100"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png"
+              alt=""
+            />
+            <h2>REAL MADRID</h2>
+          </div>
+        </div>
+        <div class="d-flex my-5 text-light justify-content-center w-100">
+          <div
+            class="time-until d-flex px-5 py-4 gap-5 justify-content-between align-items-center"
+          >
+            <h4>Next Match Countdown</h4>
+            <h2 class="fw-bold">
+              08 <span class="text-warning">D</span> : 01
+              <span class="text-warning">H</span> : 10
+              <span class="text-warning">M</span> : 55
+              <span class="text-warning">S</span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-white py-4">
+      <!-- Grid container -->
+      <div class="container">
+        <!-- Section: Form -->
+        <section class="mt-4">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input
+                    type="email"
+                    id="form5Example21"
+                    class="form-control"
+                    placeholder="email@mail.com"
+                  />
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribe
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+
+        <section class="mt-5">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="mb-3">Goalkeepers</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Marc Andre Ter Stegen</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Inaki Pena</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="mb-3">Defenders</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Ronald Araujo</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Andreas Christensen</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Marcos Alonso</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Jordi Alba</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Jules Kounde</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Eric Garcia</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="mb-3">Midfielders</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Sergio Busquets</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Pablo Gavi</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Pedri</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Franck Kessie</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Sergi Roberto</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Frankie De Jong</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="mb-3">Forwards</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Ousmane Dembele</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Robert Lewandowski</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Ansu Fati</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Ferran Torres</a
+                  >
+                </li>
+                <li class="my-1">
+                  <a href="#" class="text-white fw-light text-decoration-none"
+                    >Raphina</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <a class="navbar-brand d-flex align-items-center pt-5 gap-3" href="#"
+          ><img
+            src="https://upload.wikimedia.org/wikipedia/id/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png"
+            width="40"
+            srcset=""
+          />
+          <h5>FC Barcelona</h5></a
+        >
+        <p class="mt-3">
+          © Copyright FC Barcelona Official website by Pudyasta
+        </p>
+      </div>
+    </footer>
+    <div
+      class="text-center p-2"
+      style="background: linear-gradient(90deg, #cd122d 0, #154284)"
+    ></div>
+  </body>
+</html>
